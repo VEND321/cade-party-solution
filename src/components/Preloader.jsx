@@ -6,7 +6,7 @@ const Preloader = () => {
       <div className="flex flex-col items-center gap-8 max-w-md w-11/12 p-8 text-center">
         <div className="w-32 h-32 animate-bounce">
           <img 
-            src="public/cade-party-solution-logo.jpg" 
+            src="src/assets/cade-party-solution-logo.jpg" 
             alt="Cade Party Solution Logo" 
             className="w-full h-full object-contain rounded-full shadow-lg"
           />
