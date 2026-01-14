@@ -6,7 +6,7 @@ import WhatsAppButton from './components/WhatsAppButton'
 import { categoriesData, faqData, termsData } from './data/itemsData'
 
 const Home = () => {
-  const [activeTab, setActiveTab] = useState('popular')
+  const [activeTab, setActiveTab] = useState(categoriesData[0]?.id || 'popular')
   const [activeGlassCategory, setActiveGlassCategory] = useState('all')
   const [activeFaqIndex, setActiveFaqIndex] = useState(null)
   const { addToCart } = useCart()
@@ -144,7 +144,7 @@ const Home = () => {
               )}
               
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-                {category.items.map(item => (
+                {([...category.items].sort((a,b) => a.name.localeCompare(b.name))).map(item => (
                   <ItemCard
                     key={item.id}
                     item={item}
@@ -208,11 +208,11 @@ const Home = () => {
                 </div>
                 <div className="p-6">
                   {termsGroup.map((term, termIndex) => (
-                    <div key={termIndex} className="flex gap-4 mb-5 items-start">
+                    <div key={termIndex} className="flex gap-4 mb-5 items-center">
                       <div className="bg-orange-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold flex-shrink-0 text-sm">
                         {term.number}
                       </div>
-                      <div className="text-gray-700 leading-relaxed pt-1 text-sm">
+                      <div className="text-gray-700 leading-relaxed text-sm">
                         {term.text}
                       </div>
                     </div>

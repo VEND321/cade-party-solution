@@ -46,7 +46,7 @@ const ItemCard = ({ item, onAddToCart }) => {
             console.error('❌ Image error details:', e)
             e.target.style.display = 'none'
           }}
-          onLoad={(e) => {
+          onLoad={() => {
             console.log('✅ Image loaded successfully:', item.image)
           }}
         />
