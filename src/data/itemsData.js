@@ -65,7 +65,7 @@ import goldTeaSpoons from "../assets/gold-tea-spoons.jpg";
 export const categoriesData = [
   {
     id: "featured-combo",
-    label: "Featured Combo",
+    label: "Popular Items",
     items: [
       {
         id: "combo-chafing",
