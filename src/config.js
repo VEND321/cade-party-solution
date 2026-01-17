@@ -1,1 +1,1 @@
-export const WHATSAPP_NUMBER = (import.meta?.env?.VITE_WHATSAPP_NUMBER) || '2348188726102'
+export const WHATSAPP_NUMBER = (import.meta?.env?.VITE_WHATSAPP_NUMBER) || '2348034883592'

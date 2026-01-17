@@ -4,12 +4,13 @@ import { useCart } from './hooks/useCart'
 import ItemCard from './components/ItemCard'
 import WhatsAppButton from './components/WhatsAppButton'
 import { categoriesData, faqData, termsData } from './data/itemsData'
+import { WHATSAPP_NUMBER } from './config'
 
 const Home = () => {
   const [activeTab, setActiveTab] = useState(categoriesData[0]?.id || 'popular')
   const [activeGlassCategory, setActiveGlassCategory] = useState('all')
   const [activeFaqIndex, setActiveFaqIndex] = useState(null)
-  const { addToCart } = useCart()
+  const { addToCart, getTotalItems } = useCart()
 
   const handleAddToCart = (item) => {
     addToCart(item)
@@ -307,16 +308,16 @@ const Home = () => {
               <i className="fas fa-shopping-cart text-2xl mr-3"></i>
               <p className="m-0">After adding items, click below to send your order via WhatsApp</p>
             </div>
-            <WhatsAppButton itemCount={0} className="mb-8" />
+            <WhatsAppButton itemCount={getTotalItems()} className="mb-8" />
             
             <div className="flex justify-center gap-6 mt-8">
               <a href="https://www.instagram.com/cadepartysolution" target="_blank" rel="noopener noreferrer" className="text-white text-2xl w-12 h-12 rounded-full flex items-center justify-center bg-white/10 hover:bg-white/20 transition-colors duration-300">
                 <i className="fab fa-instagram"></i>
               </a>
-              <a href="https://api.whatsapp.com/send/?phone=2348188726102" target="_blank" rel="noopener noreferrer" className="text-white text-2xl w-12 h-12 rounded-full flex items-center justify-center bg-white/10 hover:bg-white/20 transition-colors duration-300">
+              <a href={`https://api.whatsapp.com/send/?phone=${WHATSAPP_NUMBER}`} target="_blank" rel="noopener noreferrer" className="text-white text-2xl w-12 h-12 rounded-full flex items-center justify-center bg-white/10 hover:bg-white/20 transition-colors duration-300">
                 <i className="fab fa-whatsapp"></i>
               </a>
-              <a href="tel:+2348188726102" className="text-white text-2xl w-12 h-12 rounded-full flex items-center justify-center bg-white/10 hover:bg-white/20 transition-colors duration-300">
+              <a href={`tel:+${WHATSAPP_NUMBER}`} className="text-white text-2xl w-12 h-12 rounded-full flex items-center justify-center bg-white/10 hover:bg-white/20 transition-colors duration-300">
                 <i className="fas fa-phone"></i>
               </a>
             </div>

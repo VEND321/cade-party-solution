@@ -2,7 +2,7 @@ import React from 'react'
 import { useCart } from '../hooks/useCart'
 import { WHATSAPP_NUMBER } from '../config'
 
-const WhatsAppButton = ({ itemCount, className = '', id }) => {
+const WhatsAppButton = ({ itemCount, className = '', id, size = 'md', showLabel = true }) => {
   const { cart } = useCart()
 
   const generateWhatsAppMessage = () => {
@@ -26,16 +26,22 @@ const WhatsAppButton = ({ itemCount, className = '', id }) => {
     window.open(url, '_blank')
   }
 
+  const base = 'inline-flex items-center gap-2 bg-green-500 text-white font-medium transition-all hover:bg-green-600 relative'
+  const sizeClasses = size === 'sm' ? 'w-12 h-12 rounded-full justify-center' : 'px-6 py-3 rounded-lg'
+  const pulseShadow = itemCount > 0 ? 'animate-pulse shadow-lg' : ''
+  const buttonClass = `${base} ${sizeClasses} ${pulseShadow} ${className}`
+
   return (
     <button 
-      className={`inline-flex items-center gap-2 bg-green-500 text-white px-6 py-3 rounded-lg font-medium transition-all hover:bg-green-600 relative ${itemCount > 0 ? 'animate-pulse shadow-lg' : ''} ${className}`}
+      className={buttonClass}
       id={id}
       onClick={handleClick}
+      aria-label={showLabel ? 'Order on WhatsApp' : 'Open WhatsApp to place order'}
     >
-      <i className="fab fa-whatsapp text-lg"></i>
-      <span>Order on WhatsApp</span>
+      <i className={`fab fa-whatsapp ${size === 'sm' ? 'text-xl' : 'text-lg'}`}></i>
+      {showLabel && <span>Order on WhatsApp</span>}
       {itemCount > 0 && (
-        <span className="absolute -top-2 -right-2 bg-red-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-xs font-bold animate-bounce">
+        <span className={`absolute ${size === 'sm' ? '-top-1 -right-1 w-5 h-5 text-[10px]' : '-top-2 -right-2 w-6 h-6 text-xs'} bg-red-500 text-white rounded-full flex items-center justify-center font-bold animate-bounce`}>
           {itemCount}
         </span>
       )}

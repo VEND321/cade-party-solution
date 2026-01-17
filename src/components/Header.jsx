@@ -69,6 +69,10 @@ const Header = () => {
           </div>
         </div>
       </nav>
+      {/* Floating small WhatsApp button with item count badge */}
+      <div className="fixed bottom-4 right-4 z-50">
+        <WhatsAppButton itemCount={getTotalItems()} size="sm" showLabel={false} />
+      </div>
     </header>
   )
 }
