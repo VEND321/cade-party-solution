@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react'
 
 const ItemCard = ({ item, onAddToCart }) => {
   const [quantity, setQuantity] = useState(1)
-  const [isModalOpen, setIsModalOpen] = useState(false)
 
   // Debug logs for image
   console.log('🖼️ ItemCard rendered:', item.name)
@@ -26,30 +25,8 @@ const ItemCard = ({ item, onAddToCart }) => {
     setQuantity(1)
   }
 
-  const openModal = () => setIsModalOpen(true)
-  const closeModal = () => setIsModalOpen(false)
 
-  useEffect(() => {
-    const onKeyDown = (e) => {
-      if (e.key === 'Escape') closeModal()
-    }
-    if (isModalOpen) {
-      window.addEventListener('keydown', onKeyDown)
-    }
-    return () => window.removeEventListener('keydown', onKeyDown)
-  }, [isModalOpen])
 
-  // Lock body scroll when modal is open
-  useEffect(() => {
-    if (isModalOpen) {
-      document.body.style.overflow = 'hidden'
-    } else {
-      document.body.style.overflow = ''
-    }
-    return () => {
-      document.body.style.overflow = ''
-    }
-  }, [isModalOpen])
 
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
@@ -59,18 +36,16 @@ const ItemCard = ({ item, onAddToCart }) => {
         </div>
       )}
       
-      {/* Image container with click to open modal */}
-      <button
-        type="button"
-        className="h-64 bg-gray-100 flex items-center justify-center p-4 overflow-hidden w-full cursor-zoom-in"
-        onClick={openModal}
-        aria-label={`View ${item.name} image`}
+      {/* Image container — static size, no zoom */}
+      <div
+        className="h-64 bg-gray-100 flex items-center justify-center p-4 overflow-hidden w-full"
+        aria-label={`${item.name} image`}
       >
-        <img 
-          src={item.image} 
-          alt={item.name} 
-          className="w-full h-full object-contain transition-transform duration-300 hover:scale-105"
-          loading="lazy" 
+        <img
+          src={item.image}
+          alt={item.name}
+          className="w-full h-full object-contain"
+          loading="lazy"
           onError={(e) => {
             console.error('❌ Image failed to load:', item.image)
             console.error('❌ Image error details:', e)
@@ -80,35 +55,8 @@ const ItemCard = ({ item, onAddToCart }) => {
             console.log('✅ Image loaded successfully:', item.image)
           }}
         />
-      </button>
+      </div>
 
-      {/* Lightbox Modal - full-screen cover */}
-      {isModalOpen && (
-        <div
-          className="fixed inset-0 z-50 bg-black"
-          role="dialog"
-          aria-modal="true"
-          aria-label={`${item.name} image preview`}
-          onClick={closeModal}
-        >
-          <button
-            type="button"
-            aria-label="Close image preview"
-            className="absolute top-4 right-4 p-2 rounded-full bg-white/90 text-gray-800 shadow hover:bg-white"
-            onClick={(e) => { e.stopPropagation(); closeModal() }}
-          >
-            ✕
-          </button>
-          <div className="w-full h-full" onClick={(e) => e.stopPropagation()}>
-            <img
-              src={item.image}
-              alt={item.name}
-              className="w-full h-full object-cover"
-              draggable="false"
-            />
-          </div>
-        </div>
-      )}
       
       <div className="p-5">
         <h3 className="font-playfair text-lg font-semibold text-gray-800 mb-3 line-clamp-2">

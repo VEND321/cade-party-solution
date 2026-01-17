@@ -1,5 +1,6 @@
 import React from 'react'
 import { useCart } from '../hooks/useCart'
+import { WHATSAPP_NUMBER } from '../config'
 
 const WhatsAppButton = ({ itemCount, className = '', id }) => {
   const { cart } = useCart()
@@ -8,20 +9,20 @@ const WhatsAppButton = ({ itemCount, className = '', id }) => {
     if (cart.length === 0) {
       return "Hello Cade Party Solution, I'm interested in your rental items. Please share availability details."
     }
-
-    let message = "Hello Cade Party Solution, I'd like to place an order for:\n\n"
+    const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0)
+    let message = "Hello Cade Party Solution, I'd like to place an order:\n"
+    message += `\nItems (${totalItems}):\n\n`
     cart.forEach(item => {
       message += `• ${item.name} - ${item.quantity} x ₦${item.price.toLocaleString()} = ₦${(item.quantity * item.price).toLocaleString()}\n`
     })
     const total = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0)
     message += `\nTOTAL: ₦${total.toLocaleString()}\n\nPlease confirm availability. Thank you!`
-
     return message
   }
 
   const handleClick = () => {
     const message = generateWhatsAppMessage()
-    const url = `https://wa.me/2348188726102?text=${encodeURIComponent(message)}`
+    const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`
     window.open(url, '_blank')
   }
 
