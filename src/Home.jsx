@@ -36,7 +36,7 @@ const Home = () => {
               <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
                 <i className="fas fa-glass-cheers text-4xl text-orange-600 mb-4"></i>
                 <h3 className="font-playfair text-xl font-semibold text-gray-800 mb-3">Elegant Tableware</h3>
-                <p className="text-gray-600">From charger plates to fine cutlery for any occasion</p>
+                <p className="text-gray-600">From chafing dishes to fine cutlery for any occasion</p>
               </div>
               
               <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
@@ -66,7 +66,7 @@ const Home = () => {
             Everything You Need to Host in Style
           </h1>
           <p className="text-xl md:text-2xl mb-8 max-w-4xl mx-auto">
-            Explore Dinner plates, Charger plates, Cutleries, Cups & More
+            Explore Dinner plates, Chafing dishes, Cutleries, Cups & More
           </p>
           <a href="#categories" className="inline-flex items-center bg-white text-orange-600 px-8 py-4 rounded-lg font-semibold hover:bg-orange-50 transition-colors duration-300 mb-6">
             View Rentals
@@ -170,35 +170,35 @@ const Home = () => {
             <ul className="space-y-2">
               <li className="flex justify-between py-2 border-b border-gray-100">
                 <span className="font-semibold text-gray-800">Monday:</span>
-                <span>8:30am – 6:30pm</span>
+                <span>9:00am – 6:00pm</span>
               </li>
               <li className="flex justify-between py-2 border-b border-gray-100">
                 <span className="font-semibold text-gray-800">Tuesday:</span>
-                <span>8:30am – 6:30pm</span>
+                <span>9:00am – 6:00pm</span>
               </li>
               <li className="flex justify-between py-2 border-b border-gray-100">
                 <span className="font-semibold text-gray-800">Wednesday:</span>
-                <span>8:30am – 6:30pm</span>
+                <span>9:00am – 6:00pm</span>
               </li>
               <li className="flex justify-between py-2 border-b border-gray-100">
                 <span className="font-semibold text-gray-800">Thursday:</span>
-                <span>8:30am – 6:30pm</span>
+                <span>9:00am – 6:00pm</span>
               </li>
               <li className="flex justify-between py-2 border-b border-gray-100">
                 <span className="font-semibold text-gray-800">Friday:</span>
-                <span>8:30am – 6:30pm</span>
+                <span>9:00am – 6:00pm</span>
               </li>
               <li className="flex justify-between py-2 border-b border-gray-100">
                 <span className="font-semibold text-gray-800">Saturday:</span>
-                <span>8:30am – 6:30pm</span>
+                <span>2:00pm – 6:00pm</span>
               </li>
               <li className="flex justify-between py-2">
                 <span className="font-semibold text-gray-800">Sunday:</span>
-                <span className="text-red-500 font-semibold">CLOSED</span>
+                <span>2:00pm – 6:00pm</span>
               </li>
             </ul>
           </div>
-          
+
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
             {termsData.map((termsGroup, index) => (
               <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">

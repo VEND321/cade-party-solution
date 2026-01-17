@@ -2,6 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import { useCart } from '../hooks/useCart'
 import WhatsAppButton from './WhatsAppButton'
+import logo from '../assets/cade-party-solution-logo.jpg'
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
@@ -20,7 +21,7 @@ const Header = () => {
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         <div className="flex items-center gap-4">
           <img 
-            src="src/assets/cade-party-solution-logo.jpg" 
+            src={logo} 
             alt="Cade Party Solution Logo" 
             className="w-12 h-12 md:w-16 md:h-16 rounded-full object-cover"
           />

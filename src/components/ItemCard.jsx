@@ -39,7 +39,7 @@ const ItemCard = ({ item, onAddToCart }) => {
         <img 
           src={item.image} 
           alt={item.name} 
-          className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+          className="w-full h-full object-contain transition-transform duration-300 hover:scale-105"
           loading="lazy" 
           onError={(e) => {
             console.error('❌ Image failed to load:', item.image)
