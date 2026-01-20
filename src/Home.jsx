@@ -191,7 +191,7 @@ const Home = () => {
               </li>
               <li className="flex justify-between py-2 border-b border-gray-100">
                 <span className="font-semibold text-gray-800">Saturday:</span>
-                <span>2:00pm – 6:00pm</span>
+                <span>8:00am – 6:00pm</span>
               </li>
               <li className="flex justify-between py-2">
                 <span className="font-semibold text-gray-800">Sunday:</span>

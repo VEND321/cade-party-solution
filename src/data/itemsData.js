@@ -108,7 +108,7 @@ export const categoriesData = [
       {
         id: "round-gold-chafing-002",
         name: "Aduke",
-        price: 3000,
+        price: 2500,
         unit: "each",
         image: roundGold,
         description: "Available in single and Divided pans, 7 litres capacity",
@@ -132,7 +132,7 @@ export const categoriesData = [
       {
         id: "gold-hanging-chafing-dish-009",
         name: "Gold Hanging Chafing Dish (009)",
-        price: 2500,
+        price: 2000,
         unit: "each",
         image: goldHanging009,
         description: "Available in single and Divided pans, 8 litres capacity",
@@ -140,7 +140,7 @@ export const categoriesData = [
       {
         id: "gold-rectangle-chafing-dish-010",
         name: "Amaka",
-        price: 4000,
+        price: 3500,
         unit: "each",
         image: goldRectangle,
         description:
