@@ -1,5 +1,5 @@
 import React from 'react'
-import { useCart } from '../hooks/useCart'
+import { useCart } from '../hooks/cartContext'
 import { WHATSAPP_NUMBER } from '../config'
 
 const WhatsAppButton = ({ itemCount, className = '', id, size = 'md', showLabel = true }) => {

@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
-import { useCart } from '../hooks/useCart'
+import { useCart } from '../hooks/cartContext'
 import WhatsAppButton from './WhatsAppButton'
 import logo from '../assets/cade-party-solution-logo.jpg'
 

@@ -588,13 +588,73 @@ export const termsData = [
   [
     {
       number: 1,
-      text: "All items must be returned in good condition, loss/ damaged Goods will be paid for in full.",
+      text: "BOOKING POLICY",
     },
     {
       number: 2,
-      text: "Customers are required to inspect their goods before collection as we would not be held liable/ accountable for any items once it has left the store.",
+      text: "Bookings are subject to product availability. It's advisable you book your items once you are firm on your dates and the incase of caterers. Please book your items as soon as your services are confirmed.",
     },
-    // Add more terms...
+    {
+      number: 3,
+      text: "Atleast 70% payments validates your order. We do not encourage payment by cash. Our account numbers would be sent to you once you are ready to make payment.",
+    },
+    {
+      number: 4,
+      text: "Changes can be made to previous bookings subject to availability of the preferred items.",
+    },
+    {
+      number: 5,
+      text: "Please note that items are rented per event. In the event that your event would run for a couple of days, please be kind enough to notify us and appropriate charges would be applied. This is to avoid any form of embarrassment or misunderstanding.",
+    },
+    {
+      number: 6,
+      text: "DAMAGE OR LOSS POLICY",
+    },
+    {
+      number: 7,
+      text: "In the event that an item gets missing or damaged. Please note that you will be required to pay the total cost for replacement. You are liable for the replacement cost of any missing or damaged item.",
+    },
+    {
+      number: 8,
+      text: "CAUTION FEE",
+    },
+    {
+      number: 9,
+      text: "A caution fee of 30%-40% will be charged on the total cost of rentals. Caution fee for glassware is 50% of the total cost of rentals. In the event that there's no loss or damage, the caution fee will be fully refunded. However, if there is a damage or loss the cost of replacement would be deducted from the caution fee. If the damage or loss is more than the caution fee, you would be required to pay the balance.",
+    },
   ],
-  // Add second column of terms...
+  [
+    {
+      number: 10,
+      text: "DELIVERY/PICKUP",
+    },
+    {
+      number: 11,
+      text: "We offer both pick up & delivery services at a fee depending on the location. This is strictly on a first come first serve basis. We stop taking deliveries as soon as the slots are filled. This is to enable us plan and ensure prompt delivery of items. Customers can walk in to the store or send a third party to have their items picked up. Please note that pick up or delivery maybe the evening before your event or on the event day.",
+    },
+    {
+      number: 12,
+      text: "REFUND POLICY",
+    },
+    {
+      number: 13,
+      text: "We have a refund policy however this would be treated on a case by case basis. Please note that a refund may attract penal charges which is 10-20% of the total amount. This is totally at our discretion.",
+    },
+    {
+      number: 14,
+      text: "GENERAL RULES",
+    },
+    {
+      number: 15,
+      text: "Please ensure all items are confirmed before pickups or during deliveries. We would not be liable for any loss or damage after then.",
+    },
+    {
+      number: 16,
+      text: "Please note that all items are to be returned next day after the event. The store opens by 2pm on Sundays for return. Failure to return rented items as at when due could result in total forfeiture of the caution fee.",
+    },
+    {
+      number: 17,
+      text: "All items are to be washed and packed in the crate upon return. We offer after event washing services at a fee.",
+    },
+  ],
 ];
