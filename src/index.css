@@ -1,1 +1,69 @@
 @import "tailwindcss";
+
+/* Brand color overrides */
+:root {
+  --brand-orange: #e30807;
+}
+
+.text-orange-600 {
+  color: var(--brand-orange) !important;
+}
+.text-orange-700 {
+  color: var(--brand-orange) !important;
+}
+.text-orange-800 {
+  color: var(--brand-orange) !important;
+}
+
+.hover\:text-orange-600:hover {
+  color: var(--brand-orange) !important;
+}
+.hover\:text-orange-700:hover {
+  color: var(--brand-orange) !important;
+}
+.hover\:text-orange-800:hover {
+  color: var(--brand-orange) !important;
+}
+
+.bg-orange-500 {
+  background-color: var(--brand-orange) !important;
+}
+.bg-orange-600 {
+  background-color: var(--brand-orange) !important;
+}
+.bg-orange-700 {
+  background-color: var(--brand-orange) !important;
+}
+.bg-orange-800 {
+  background-color: var(--brand-orange) !important;
+}
+
+.hover\:bg-orange-500:hover {
+  background-color: var(--brand-orange) !important;
+}
+.hover\:bg-orange-600:hover {
+  background-color: var(--brand-orange) !important;
+}
+.hover\:bg-orange-700:hover {
+  background-color: var(--brand-orange) !important;
+}
+.hover\:bg-orange-800:hover {
+  background-color: var(--brand-orange) !important;
+}
+
+.border-orange-600 {
+  border-color: var(--brand-orange) !important;
+}
+.border-orange-700 {
+  border-color: var(--brand-orange) !important;
+}
+.border-orange-800 {
+  border-color: var(--brand-orange) !important;
+}
+
+.from-orange-600 {
+  --tw-gradient-from: var(--brand-orange) !important;
+}
+.to-orange-800 {
+  --tw-gradient-to: var(--brand-orange) !important;
+}

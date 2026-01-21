@@ -27,10 +27,10 @@ const Home = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto text-center">
             <h1 className="font-playfair text-3xl md:text-4xl lg:text-5xl font-bold text-orange-800 mb-6">
-              Welcome to Cade Party Solution Event Rentals
+              Welcome to Cade Party Solution 
             </h1>
             <p className="text-lg md:text-xl text-gray-700 mb-12 leading-relaxed">
-              Your trusted partner for exceptional event rentals. Whether you're hosting an intimate gathering, a corporate function, or a grand celebration, we provide premium rental items to bring your vision to life.
+              Your No 1 Rental Partner.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
