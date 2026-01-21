@@ -115,23 +115,15 @@ export const categoriesData = [
       },
       {
         id: "side-hanging-chafing-dish-003",
-        name: "Side Hanging Chafing Dish (003)",
+        name: "Aisha",
         price: 2000,
         unit: "each",
         image: sideHanging,
         description: "8 litres capacity",
       },
       {
-        id: "gold-hanging-chafing-dish-006",
-        name: "Gold Hanging Chafing Dish (006)",
-        price: 2000,
-        unit: "each",
-        image: goldHanging006,
-        description: "8 litres capacity",
-      },
-      {
         id: "gold-hanging-chafing-dish-009",
-        name: "Gold Hanging Chafing Dish (009)",
+        name: "Ummi",
         price: 2000,
         unit: "each",
         image: goldHanging009,
@@ -296,7 +288,7 @@ export const categoriesData = [
       {
         id: "gold-chafing-dish-002",
         name: "Abeni",
-        price: 4000,
+        price: 3000,
         unit: "each",
         image: goldChafing,
         description: "Available in single and Divided pans, 7 litres capacity",
@@ -309,49 +301,25 @@ export const categoriesData = [
     items: [
       // Original plates
       {
-        id: "square-gold-rimmed-plate-001",
-        name: "Square Gold Rimmed Plate",
-        price: 1500,
-        unit: "each",
-        image: squareGoldRimmed,
-        description: "Elegant square plate with gold rim detailing",
-      },
-      {
         id: "rectangular-white-plate-002",
-        name: "Rectangular White Plate",
-        price: 1500,
+        name: "Rectangular White Plate (002)",
+        price: 100,
         unit: "each",
         image: rectangularWhite,
         description: "Modern rectangular white plate for stylish serving",
       },
       {
         id: "gold-rimmed-four-divided-plate-003",
-        name: "Gold Rimmed Four Divided Plate",
-        price: 1500,
+        name: "Gold Rimmed Four Divided Plate (003)",
+        price: 120,
         unit: "each",
         image: goldRimmedFourDivided,
         description: "Four-section plate with elegant gold rim",
       },
-      {
-        id: "round-gold-rimmed-plate-004",
-        name: "Round Gold Rimmed Plate",
-        price: 1500,
-        unit: "each",
-        image: roundGoldRimmed,
-        description: "Classic round plate with gold rim detailing",
-      },
-      {
-        id: "square-snowflake-white-plate-005",
-        name: "Square Snowflake White Plate",
-        price: 1500,
-        unit: "each",
-        image: squareSnowflakeWhite,
-        description: "Beautiful square white plate with snowflake pattern",
-      },
       // New plates
       {
         id: "rectangular-gold-rimmed-plate-001",
-        name: "Rectangular Gold Rimmed Plate",
+        name: "Rectangular Gold Rimmed Plate (001)",
         price: 120,
         unit: "each",
         image: rectangularGoldRimmedPlate001,
@@ -359,7 +327,7 @@ export const categoriesData = [
       },
       {
         id: "round-gold-rimmed-plate-002",
-        name: "Round Gold Rimmed Plate",
+        name: "Round Gold Rimmed Plate (002)",
         price: 120,
         unit: "each",
         image: roundGoldRimmedPlate002,
@@ -367,7 +335,7 @@ export const categoriesData = [
       },
       {
         id: "rectangular-white-003",
-        name: "Rectangular White",
+        name: "Rectangular White (003)",
         price: 100,
         unit: "each",
         image: rectangularWhite003,
@@ -375,7 +343,7 @@ export const categoriesData = [
       },
       {
         id: "rectangular-gold-rimmed-004",
-        name: "Rectangular Gold Rimmed",
+        name: "Rectangular Gold Rimmed (004)",
         price: 120,
         unit: "each",
         image: rectangularGoldRimmed004,
@@ -383,7 +351,7 @@ export const categoriesData = [
       },
       {
         id: "round-gold-rimmed-005",
-        name: "Round Gold Rimmed",
+        name: "Round Gold Rimmed (005)",
         price: 120,
         unit: "each",
         image: roundGoldRimmed005,
@@ -391,7 +359,7 @@ export const categoriesData = [
       },
       {
         id: "rectangular-flowered-white-006",
-        name: "Rectangular Flowered White Plate",
+        name: "Rectangular Flowered White Plate (006)",
         price: 100,
         unit: "each",
         image: rectangularFloweredWhite006,
@@ -399,7 +367,7 @@ export const categoriesData = [
       },
       {
         id: "round-silver-rimmed-008",
-        name: "Round Silver Rimmed Plate",
+        name: "Round Silver Rimmed Plate (008)",
         price: 120,
         unit: "each",
         image: roundSilverRimmed008,
@@ -407,7 +375,7 @@ export const categoriesData = [
       },
       {
         id: "round-black-009",
-        name: "Round Black Plates",
+        name: "Round Black Plates (009)",
         price: 100,
         unit: "each",
         image: roundBlack009,
@@ -415,7 +383,7 @@ export const categoriesData = [
       },
       {
         id: "white-rectangular-tables-010",
-        name: "White Rectangular Tables with Side Compartment",
+        name: "White Rectangular Tables with Side Compartment (010)",
         price: 100,
         unit: "each",
         image: whiteRectangularTables010,
@@ -423,7 +391,7 @@ export const categoriesData = [
       },
       {
         id: "white-oval-011",
-        name: "White Oval Plates",
+        name: "White Oval Plates (011)",
         price: 100,
         unit: "each",
         image: whiteOval011,
@@ -431,7 +399,7 @@ export const categoriesData = [
       },
       {
         id: "rectangular-long-012",
-        name: "Rectangular Long Plates",
+        name: "Rectangular Long Plates (012)",
         price: 100,
         unit: "each",
         image: rectangularLong012,
@@ -439,7 +407,7 @@ export const categoriesData = [
       },
       {
         id: "partitioned-013",
-        name: "Partitioned Plates",
+        name: "Partitioned Plates (013)",
         price: 100,
         unit: "each",
         image: partitioned013,
@@ -447,7 +415,7 @@ export const categoriesData = [
       },
       {
         id: "rectangular-round-middle-013",
-        name: "Rectangular Plates with Round Middle",
+        name: "Rectangular Plates with Round Middle (013)",
         price: 80,
         unit: "each",
         image: rectangularRoundMiddle013,
@@ -455,7 +423,7 @@ export const categoriesData = [
       },
       {
         id: "rectangular-curved-small-014",
-        name: "Rectangular Plates with Curved Edges (Small)",
+        name: "Rectangular Plates with Curved Edges (Small) (014)",
         price: 80,
         unit: "each",
         image: rectangularCurvedSmall014,
@@ -463,7 +431,7 @@ export const categoriesData = [
       },
       {
         id: "rectangular-curved-big-014",
-        name: "Rectangular Plates with Curved Edges (Big)",
+        name: "Rectangular Plates with Curved Edges (Big) (014)",
         price: 100,
         unit: "each",
         image: rectangularCurvedBig014,
@@ -471,7 +439,7 @@ export const categoriesData = [
       },
       {
         id: "round-white-015",
-        name: "Round White Plate",
+        name: "Round White Plate (015)",
         price: 80,
         unit: "each",
         image: roundWhite015,
@@ -479,7 +447,7 @@ export const categoriesData = [
       },
       {
         id: "rectangular-016",
-        name: "Rectangular Plates",
+        name: "Rectangular Plates (016)",
         price: 80,
         unit: "each",
         image: rectangular016,
@@ -487,7 +455,7 @@ export const categoriesData = [
       },
       {
         id: "semi-rectangular-016",
-        name: "Semi Rectangular Plates",
+        name: "Semi Rectangular Plates (016)",
         price: 70,
         unit: "each",
         image: semiRectangular016,
@@ -495,7 +463,7 @@ export const categoriesData = [
       },
       {
         id: "plain-round-017",
-        name: "Plain Round Plates",
+        name: "Plain Round Plates (017)",
         price: 80,
         unit: "each",
         image: plainRound017,
@@ -509,7 +477,7 @@ export const categoriesData = [
     items: [
       {
         id: "silver-cutlery-001",
-        name: "Silver Cutlery",
+        name: "Silver Cutlery (001)",
         price: 50,
         unit: "per piece",
         image: silverCutlery001,
@@ -517,7 +485,7 @@ export const categoriesData = [
       },
       {
         id: "silver-cutlery-002",
-        name: "Silver Cutlery",
+        name: "Silver Cutlery (002)",
         price: 40,
         unit: "per piece",
         image: silverCutlery002,
@@ -525,7 +493,7 @@ export const categoriesData = [
       },
       {
         id: "silver-cutlery-003",
-        name: "Silver Cutlery",
+        name: "Silver Cutlery (003)",
         price: 50,
         unit: "per piece",
         image: silverCutlery003,
@@ -533,7 +501,7 @@ export const categoriesData = [
       },
       {
         id: "gold-cutlery-004",
-        name: "Gold Cutlery",
+        name: "Gold Cutlery (004)",
         price: 70,
         unit: "per piece",
         image: goldCutlery004,
@@ -541,7 +509,7 @@ export const categoriesData = [
       },
       {
         id: "gold-cutlery-005",
-        name: "Gold Cutlery",
+        name: "Gold Cutlery (005)",
         price: 100,
         unit: "per piece",
         image: goldCutlery005,
@@ -549,7 +517,7 @@ export const categoriesData = [
       },
       {
         id: "gold-cutlery-006",
-        name: "Gold Cutleries",
+        name: "Gold Cutleries (006)",
         price: 50,
         unit: "each",
         image: goldCutlery006,
