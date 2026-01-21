@@ -278,7 +278,7 @@ export const categoriesData = [
       },
       {
         id: "bronze-rectangular-chafing-012",
-        name: "Bronze Rectangular Chafing (012)",
+        name: "Ore",
         price: 3000,
         unit: "each",
         image: bronzeRectangular,
