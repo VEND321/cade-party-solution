@@ -331,13 +331,13 @@ const Home = () => {
             <WhatsAppButton itemCount={getTotalItems()} className="mb-8" />
 
             <div className="flex justify-center gap-6 mt-8">
-              <a href="https://www.instagram.com/cadepartysolution" target="_blank" rel="noopener noreferrer" className="text-white text-2xl w-12 h-12 rounded-full flex items-center justify-center bg-white/10 hover:bg-white/20 transition-colors duration-300">
+              <a href="https://www.instagram.com/cade_partysolution?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" className="text-white text-2xl w-12 h-12 rounded-full flex items-center justify-center bg-white/10 hover:bg-white/20 transition-colors duration-300">
                 <i className="fab fa-instagram"></i>
               </a>
               <a href={`https://api.whatsapp.com/send/?phone=${WHATSAPP_NUMBER}`} target="_blank" rel="noopener noreferrer" className="text-white text-2xl w-12 h-12 rounded-full flex items-center justify-center bg-white/10 hover:bg-white/20 transition-colors duration-300">
                 <i className="fab fa-whatsapp"></i>
               </a>
-              <a href={`tel:+${WHATSAPP_NUMBER}`} className="text-white text-2xl w-12 h-12 rounded-full flex items-center justify-center bg-white/10 hover:bg-white/20 transition-colors duration-300">
+              <a href={`tel:+2349045858434`} className="text-white text-2xl w-12 h-12 rounded-full flex items-center justify-center bg-white/10 hover:bg-white/20 transition-colors duration-300">
                 <i className="fas fa-phone"></i>
               </a>
             </div>
