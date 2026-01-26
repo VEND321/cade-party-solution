@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 text-center">
         <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-8">
           <img 
-            src="/assets/logo.jpeg" 
+            src="src/assets/cade-party-solution-logo.jpg" 
             alt="Cade Party Solution Logo" 
             className="w-20 h-20 rounded-full object-cover"
           />
