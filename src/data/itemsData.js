@@ -62,6 +62,28 @@ import goldCutlery006 from "../assets/gold-cutlery-006.jpg";
 import silverTeaSpoons from "../assets/silver-tea-spoons.jpg";
 import goldTeaSpoons from "../assets/gold-tea-spoons.jpg";
 
+// Glassware imports (you'll need to add these images to your assets folder)
+import champagneGlass from "../assets/champagne-glass.jpg";
+import plainWineGlass from "../assets/plain-wine-glass.jpg";
+import plainWaterGlass from "../assets/plain-water-glass.jpg";
+import plainWaterGlass001 from "../assets/plain-water-glass-1.jpg";
+import crystalWineGlass from "../assets/crystal-wine-glass.jpg";
+import crystalWaterGlass from "../assets/crystal-water-glass.jpg";
+import mocktailCocktailGlass001 from "../assets/mocktail-cocktail-glass-001.jpg";
+import mocktailCocktailGlass002 from "../assets/mocktail-cocktail-glass-002.jpg";
+import mocktailCocktailGlass003 from "../assets/mocktail-cocktail-glass-003.jpg";
+import fruitDesertCup from "../assets/fruit-desert-cup.jpg";
+import martiniGlass from "../assets/martini-glass.jpg";
+import margaritaGlass from "../assets/margarita-glass.jpg";
+import silverWineGlass from "../assets/silver-wine-glass.jpg";
+import purpleWineGlass from "../assets/purple-wine-glass.jpg";
+import transparentGoldWineGlass from "../assets/transparent-gold-wine-glass.jpg";
+import goldWineGlass from "../assets/gold-wine-glass.jpg";
+import blackWineGlass from "../assets/black-wine-glass.jpg";
+import bronzeWineGlass from "../assets/bronze-wine-glass.jpg";
+import greyWineGlass from "../assets/grey-wine-glass.jpg";
+import shotGlass from "../assets/shot-glass.jpg";
+
 export const categoriesData = [
   {
     id: "featured-combo",
@@ -541,6 +563,172 @@ export const categoriesData = [
       },
     ].sort((a, b) => a.name.localeCompare(b.name)),
   },
+   {
+  id: "glassware",
+  label: "Glassware",
+  items: [
+    {
+      id: "champagne-glass",
+      name: "Champagne Glass",
+      price: 100,
+      unit: "each",
+      image: champagneGlass,
+      description: "Elegant champagne glass for celebrations",
+    },
+    {
+      id: "plain-wine-glass",
+      name: "Plain Wine Glass",
+      price: 100,
+      unit: "each",
+      image: plainWineGlass,
+      description: "Classic plain wine glass",
+    },
+    {
+      id: "plain-water-glass",
+      name: "Plain Water Glass",
+      price: 100,
+      unit: "each",
+      image: plainWaterGlass,
+      description: "Simple water glass for everyday use",
+    },
+    {
+      id: "plain-water-glass-001",
+      name: "Plain Water Glass (001)",
+      price: 100,
+      unit: "each",
+      image: plainWaterGlass001,
+      description: "Simple water glass for everyday use",
+    },
+    {
+      id: "crystal-wine-glass",
+      name: "Crystal Wine Glass",
+      price: 150,
+      unit: "each",
+      image: crystalWineGlass,
+      description: "Premium crystal wine glass for special occasions",
+    },
+    {
+      id: "crystal-water-glass",
+      name: "Crystal Water Glass",
+      price: 100,
+      unit: "each",
+      image: crystalWaterGlass,
+      description: "Elegant crystal water glass",
+    },
+    {
+      id: "mocktail-cocktail-glass-001",
+      name: "Mocktail/Cocktail Glasses (001)",
+      price: 100,
+      unit: "each",
+      image: mocktailCocktailGlass001,
+      description: "Stylish glasses for cocktails and mocktails",
+    },
+    {
+      id: "mocktail-cocktail-glass-002",
+      name: "Mocktail/Cocktail Glasses (002)",
+      price: 100,
+      unit: "each",
+      image: mocktailCocktailGlass002,
+      description: "Stylish glasses for cocktails and mocktails",
+    },
+    {
+      id: "mocktail-cocktail-glass-003",
+      name: "Mocktail/Cocktail Glasses (003)",
+      price: 100,
+      unit: "each",
+      image: mocktailCocktailGlass003,
+      description: "Stylish glasses for cocktails and mocktails",
+    },
+    {
+      id: "fruit-desert-cup",
+      name: "Fruit/Desert Cup",
+      price: 100,
+      unit: "each",
+      image: fruitDesertCup,
+      description: "Perfect cup for serving fruits and desserts",
+    },
+    {
+      id: "martini-glass",
+      name: "Martini Glass",
+      price: 150,
+      unit: "each",
+      image: martiniGlass,
+      description: "Classic martini glass for sophisticated drinks",
+    },
+    {
+      id: "margarita-glass",
+      name: "Margarita Glass",
+      price: 150,
+      unit: "each",
+      image: margaritaGlass,
+      description: "Traditional margarita glass with wide rim",
+    },
+    {
+      id: "silver-wine-glass",
+      name: "Silver Colored Wine Glass",
+      price: 150,
+      unit: "each",
+      image: silverWineGlass,
+      description: "Elegant silver-colored wine glass",
+    },
+    {
+      id: "purple-wine-glass",
+      name: "Purple Wine Glass",
+      price: 150,
+      unit: "each",
+      image: purpleWineGlass,
+      description: "Stylish purple wine glass",
+    },
+    {
+      id: "transparent-gold-wine-glass",
+      name: "Transparent Gold Wine Glass",
+      price: 150,
+      unit: "each",
+      image: transparentGoldWineGlass,
+      description: "Elegant wine glass with transparent gold finish",
+    },
+    {
+      id: "gold-wine-glass",
+      name: "Gold Wine Glass",
+      price: 150,
+      unit: "each",
+      image: goldWineGlass,
+      description: "Luxurious gold wine glass",
+    },
+    {
+      id: "black-wine-glass",
+      name: "Black Wine Glasses",
+      price: 150,
+      unit: "each",
+      image: blackWineGlass,
+      description: "Modern black wine glasses",
+    },
+    {
+      id: "bronze-wine-glass",
+      name: "Bronze Wine Glass",
+      price: 150,
+      unit: "each",
+      image: bronzeWineGlass,
+      description: "Elegant bronze wine glass",
+    },
+    {
+      id: "grey-wine-glass",
+      name: "Grey/Plain Wine Glass",
+      price: 150,
+      unit: "each",
+      image: greyWineGlass,
+      description: "Sleek grey wine glass",
+    },
+    {
+      id: "shot-glass",
+      name: "Shot Glass",
+      price: 100,
+      unit: "each",
+      image: shotGlass,
+      description: "Compact shot glass (smaller in real life than appears in picture)",
+    },
+  ].sort((a, b) => a.name.localeCompare(b.name)),
+},
 ];
 
 export const faqData = [
