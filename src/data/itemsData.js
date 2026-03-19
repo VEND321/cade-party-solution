@@ -84,6 +84,19 @@ import bronzeWineGlass from "../assets/bronze-wine-glass.jpg";
 import greyWineGlass from "../assets/grey-wine-glass.jpg";
 import shotGlass from "../assets/shot-glass.jpg";
 
+// Add these imports at the top with the other imports
+import blackSauceBowlHandle from "../assets/black-sauce-bowl-handle.jpg";
+import blackSauceCup from "../assets/black-sauce-cup.jpg";
+import whiteSauceBowlHandle from "../assets/white-sauce-bowl-handle.jpg";
+import goldRimmedSauceBowl from "../assets/gold-rimmed-sauce-bowl.jpg";
+import rameskinSauceBowl from "../assets/rameskin-sauce-bowl.jpg";
+import whiteShovelHandSaucePlate from "../assets/white-shovel-hand-sauce-plate.jpg";
+import silverRimmedSauceBowl from "../assets/silver-rimmed-sauce-bowl.jpg";
+import bigWhiteSauceBowl from "../assets/big-white-sauce-bowl.jpg";
+import bigSqaureWhiteSauceBowl from "../assets/big-sqaure-white-sauce-bowl-.jpg";
+import blackPeppersoupBowl from "../assets/black-peppersoup-bowl-set.jpg"
+import leafShapedPeppersoupBowl from "../assets/leaf-shaped-peppersoup-bowl.jpg";
+
 export const categoriesData = [
   {
     id: "featured-combo",
@@ -726,6 +739,100 @@ export const categoriesData = [
       unit: "each",
       image: shotGlass,
       description: "Compact shot glass (smaller in real life than appears in picture)",
+    },
+  ].sort((a, b) => a.name.localeCompare(b.name)),
+},
+{
+  id: "bowls",
+  label: "Bowls",
+  items: [
+    {
+      id: "black-sauce-bowl-handle",
+      name: "Black Sauce Bowl with Handle",
+      price: 60,
+      unit: "each",
+      image: blackSauceBowlHandle,
+      description: "Black sauce bowl with convenient handle",
+    },
+    {
+      id: "black-sauce-cup",
+      name: "Black Sauce Cup",
+      price: 60,
+      unit: "each",
+      image: blackSauceCup,
+      description: "Black sauce bowl with convenient handle",
+    },
+    {
+      id: "white-sauce-bowl-handle",
+      name: "White Sauce Bowl with Handle",
+      price: 60,
+      unit: "each",
+      image: whiteSauceBowlHandle,
+      description: "White sauce bowl with convenient handle",
+    },
+    {
+      id: "gold-rimmed-sauce-bowl",
+      name: "Gold Rimmed Sauce Bowl",
+      price: 60,
+      unit: "each",
+      image: goldRimmedSauceBowl,
+      description: "Elegant sauce bowl with gold rim",
+    },
+    {
+      id: "rameskin-sauce-bowl",
+      name: "Rameskin Sauce Bowl",
+      price: 60,
+      unit: "each",
+      image: rameskinSauceBowl,
+      description: "Classic rameskin sauce bowl",
+    },
+    {
+      id: "white-shovel-hand-sauce-plate",
+      name: "White Shovel Hand Sauce Plate",
+      price: 60,
+      unit: "each",
+      image: whiteShovelHandSaucePlate,
+      description: "Unique white sauce plate with shovel handle design",
+    },
+    {
+      id: "silver-rimmed-sauce-bowl",
+      name: "Silver Rimmed Sauce Bowl",
+      price: 60,
+      unit: "each",
+      image: silverRimmedSauceBowl,
+      description: "Elegant sauce bowl with silver rim",
+    }, 
+    {
+      id: "big-white-sauce-bowl",
+      name: "Big White Sauce Bowl",
+      price: 60,
+      unit: "each",
+      image: bigWhiteSauceBowl,
+      description: "Perfect for ofada sauces or small portioned peppersoup",
+    },
+    {
+      id: "big-Sqaure-white-sauce-bowl",
+      name: "Big Sqaure White Sauce Bowl",
+      price: 60,
+      unit: "each",
+      image: bigSqaureWhiteSauceBowl,
+      description: "Perfect for ofada sauces or small portioned peppersoup",
+    },
+    {
+      id: "leaf-shaped-peppersoup-bowl",
+      name: "Leaf Shaped Peppersoup Bowl",
+      price: 70,
+      unit: "each",
+      image: leafShapedPeppersoupBowl,
+      description: "Unique leaf shaped bowl, can also be used as soup bowl",
+    },
+    {
+      id: "blackPeppersoupBowl",
+      name: "Black Peppersoup Bowl",
+      price: 150,
+      unit: "each",
+      image: blackPeppersoupBowl,
+      description: "Unique Black bowl, can also be used as soup bowl",
     },
   ].sort((a, b) => a.name.localeCompare(b.name)),
 },
