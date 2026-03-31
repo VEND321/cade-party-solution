@@ -51,6 +51,9 @@ import roundWhite015 from "../assets/round-white-015.jpg";
 import rectangular016 from "../assets/rectangular-016.jpg";
 import semiRectangular016 from "../assets/semi-rectangular-016.jpg";
 import plainRound017 from "../assets/plain-round-017.jpg";
+import roundWhiteSideDinnerPlateSet from "../assets/round-white-side-dinner-plate-set.jpg";
+import sideBigDinnerPlates from "../assets/side-big-dinner-plates.jpg";
+
 
 // New cutlery imports (you'll need to add these images to your assets folder)
 import silverCutlery001 from "../assets/silver-cutlery-001.jpg";
@@ -96,6 +99,16 @@ import bigWhiteSauceBowl from "../assets/big-white-sauce-bowl.jpg";
 import bigSqaureWhiteSauceBowl from "../assets/big-sqaure-white-sauce-bowl-.jpg";
 import blackPeppersoupBowl from "../assets/black-peppersoup-bowl-set.jpg"
 import leafShapedPeppersoupBowl from "../assets/leaf-shaped-peppersoup-bowl.jpg";
+import soupBowlHandle from "../assets/soup-bowl-handle.jpg";
+import goldRimmedSoupBowl from "../assets/gold-rimmed-soup-bowl.jpg";
+import blackSoupBowl from "../assets/black-soup-bowl.jpg";
+import plainSoupBowl from "../assets/plain-soup-bowl.jpg";
+import diamondBackSoupBowl from "../assets/diamond-back-soup-bowl.jpg";
+import rectangularSoupBowl from "../assets/rectangular-soup-bowl.jpg";
+import goldRimmedAmalaBowl from "../assets/gold-rimmed-amala-bowl.jpg";
+import capShapedAmalaBowl from "../assets/cap-shaped-amala-bowl.jpg";
+import leafShapedAmalaBowl from "../assets/leaf-shaped-amala-bowl.jpg";
+import boatShapedAmalaBowl from "../assets/boat-shaped-amala-bowl.jpg";
 
 export const categoriesData = [
   {
@@ -496,6 +509,22 @@ export const categoriesData = [
         image: semiRectangular016,
         description: "Unique semi-rectangular shaped plates",
       },
+          {
+      id: "round-white-side-dinner-plate-set",
+      name: "Round White Side and Dinner Plate Set",
+      price: 150,
+      unit: "per set",
+      image: roundWhiteSideDinnerPlateSet,
+      description: "Complete set of round white side and dinner plates",
+    },
+    {
+      id: "side-big-dinner-plates",
+      name: "Side and Big Dinner Plates",
+      price: 200,
+      unit: "each",
+      image: sideBigDinnerPlates,
+      description: "Set of side plates and big dinner plates",
+    },
       {
         id: "plain-round-017",
         name: "Plain Round Plates (017)",
@@ -825,6 +854,86 @@ export const categoriesData = [
       unit: "each",
       image: leafShapedPeppersoupBowl,
       description: "Unique leaf shaped bowl, can also be used as soup bowl",
+    },
+        {
+      id: "soup-bowl-handle",
+      name: "Soup Bowl with Handle",
+      price: 100,
+      unit: "each",
+      image: soupBowlHandle,
+      description: "Convenient soup bowl with handle for easy serving",
+    },
+    {
+      id: "gold-rimmed-soup-bowl-new",
+      name: "Gold Rimmed Soup Bowl",
+      price: 80,
+      unit: "each",
+      image: goldRimmedSoupBowl,
+      description: "Elegant soup bowl with gold rim decoration",
+    },
+     {
+      id: "black-soup-bowl",
+      name: "Black Soup Bowl",
+      price: 80,
+      unit: "each",
+      image: blackSoupBowl,
+      description: "Modern black soup bowl for stylish serving",
+    },
+    {
+      id: "plain-soup-bowl",
+      name: "Plain Soup Bowl",
+      price: 70,
+      unit: "each",
+      image: plainSoupBowl,
+      description: "Simple and elegant plain soup bowl",
+    },
+     {
+      id: "diamond-back-soup-bowl",
+      name: "Diamond Back Soup Bowl",
+      price: 70,
+      unit: "each",
+      image: diamondBackSoupBowl,
+      description: "Unique soup bowl with diamond back pattern",
+    },
+    {
+      id: "rectangular-soup-bowl",
+      name: "Rectangular Shaped Soup Bowl",
+      price: 70,
+      unit: "each",
+      image: rectangularSoupBowl,
+      description: "Modern rectangular shaped soup bowl",
+    },
+     {
+      id: "gold-rimmed-amala-bowl",
+      name: "Gold Rimmed Amala Bowl",
+      price: 120,
+      unit: "each",
+      image: goldRimmedAmalaBowl,
+      description: "Elegant amala bowl with gold rim",
+    },
+    {
+      id: "cap-shaped-amala-bowl",
+      name: "Cap Shaped Amala Bowl",
+      price: 100,
+      unit: "each",
+      image: capShapedAmalaBowl,
+      description: "Unique cap shaped amala serving bowl",
+    },
+     {
+      id: "leaf-shaped-amala-bowl",
+      name: "Leaf Shaped Amala Bowl",
+      price: 100,
+      unit: "each",
+      image: leafShapedAmalaBowl,
+      description: "Decorative leaf shaped amala bowl",
+    },
+    {
+      id: "boat-shaped-amala-bowl",
+      name: "Boat Shaped Amala Bowl",
+      price: 100,
+      unit: "each",
+      image: boatShapedAmalaBowl,
+      description: "Unique boat shaped amala serving bowl",
     },
     {
       id: "blackPeppersoupBowl",
