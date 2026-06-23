@@ -258,17 +258,10 @@ export const categoriesData = [
         image: roundWoodBody,
         description: "Available in single and Divided pans, 7 litres capacity",
       },
-      {
-        id: "side-hanging-chafing-dish-003",
-        name: "Aisha",
-        price: 2000,
-        unit: "each",
-        image: sideHanging,
-        description: "8 litres capacity",
-      },
+
       {
         id: "gold-side-hanging-chafing-dish-003",
-        name: "Aisha II",
+        name: "Aisha",
         price: 3500,
         unit: "each",
         image: goldSideHanging,
