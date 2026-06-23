@@ -7,16 +7,12 @@ import goldHanging from "../assets/gold-hanging-chafing-dish-011.jpg";
 import bronzeRectangular from "../assets/bronze-rectangular-chafing-012.jpg";
 import goldChafing from "../assets/gold-chafing-dish-002.jpg";
 import roundWoodBody from "../assets/round-wood-body-chafing-dish-001.jpg";
-import roundGold from "../assets/round-gold-chafing-002.jpg";
 import sideHanging from "../assets/side-hanging-chafing-dish-003.jpg";
 import goldHanging006 from "../assets/gold-hanging-chafing-dish-006.jpg";
-import goldHanging009 from "../assets/gold-hanging-chafing-dish-009.jpg";
 import goldRectangle from "../assets/gold-rectangle-chafing-dish-010.jpg";
 import blackRectangle from "../assets/black-rectangle-chafing-dish-011.jpg";
 import blackSquare from "../assets/black-square-chafing-dish-012.jpg";
-import goldRectangle013 from "../assets/gold-rectangle-chafing-dish-013.jpg";
 import miniGold from "../assets/mini-gold-chafing-dishes-016.jpg";
-import miniRings from "../assets/mini-rings-chafing-dishes-017.jpg";
 import silverMini from "../assets/silver-mini-chafing-dishes-018.jpg";
 import oldFashioned from "../assets/old-fashioned-rectangular-chafing-dishes-019.jpg";
 import goldCoverHanging from "../assets/gold-cover-hanging-chafing-dishes-020.jpg";
@@ -154,28 +150,12 @@ export const categoriesData = [
         description: "Available in single and Divided pans, 7 litres capacity",
       },
       {
-        id: "round-gold-chafing-002",
-        name: "Aduke",
-        price: 2500,
-        unit: "each",
-        image: roundGold,
-        description: "Available in single and Divided pans, 7 litres capacity",
-      },
-      {
         id: "side-hanging-chafing-dish-003",
         name: "Aisha",
         price: 2000,
         unit: "each",
         image: sideHanging,
         description: "8 litres capacity",
-      },
-      {
-        id: "gold-hanging-chafing-dish-009",
-        name: "Ummi",
-        price: 2000,
-        unit: "each",
-        image: goldHanging009,
-        description: "Available in single and Divided pans, 8 litres capacity",
       },
       {
         id: "gold-rectangle-chafing-dish-010",
@@ -204,15 +184,6 @@ export const categoriesData = [
         description: "Available in single and double pans, 6 litres capacity",
       },
       {
-        id: "gold-rectangle-chafing-dish-013",
-        name: "Emeka",
-        price: 2000,
-        unit: "each",
-        image: goldRectangle013,
-        description:
-          "Available in single, double and triple pans, 9 litres capacity",
-      },
-      {
         id: "mini-gold-chafing-dishes-016",
         name: "Keremi I",
         price: 2000,
@@ -220,14 +191,7 @@ export const categoriesData = [
         image: miniGold,
         description: "4 litres capacity",
       },
-      {
-        id: "mini-rings-chafing-dishes-017",
-        name: "Keremi II",
-        price: 2000,
-        unit: "each",
-        image: miniRings,
-        description: "4 litres capacity",
-      },
+
       {
         id: "silver-mini-chafing-dishes-018",
         name: "Ayo",
