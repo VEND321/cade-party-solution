@@ -20,6 +20,8 @@ import silverRectangularRollTop from "../assets/silver-rectangular-roll-top-chaf
 import silverRoundRollTop from "../assets/silver-round-roll-top-chafing-dishes-022.jpg";
 import roundSilver from "../assets/round-silver-chafing-dish-024.jpg";
 import roundGoldRollTop from "../assets/round-gold-roll-top-chafing-dish-025.jpg";
+import roundSilverAduke from "../assets/round-silver-chafing-dish.jpg";
+import goldSideHanging from "../assets/gold-side-hanging-chafing-dish-003.jpg";
 // Original plate imports
 import squareGoldRimmed from "../assets/square-gold-rimmed-plate.jpg";
 import rectangularWhite from "../assets/rectangular-white-plate.jpg";
@@ -106,6 +108,19 @@ import capShapedAmalaBowl from "../assets/cap-shaped-amala-bowl.jpg";
 import leafShapedAmalaBowl from "../assets/leaf-shaped-amala-bowl.jpg";
 import boatShapedAmalaBowl from "../assets/boat-shaped-amala-bowl.jpg";
 
+//Desert Tray And Stand
+import basketDesertTray from "../assets/basket-desert-tray.jpg";
+import goldDesertTray from "../assets/gold-desert-tray.jpg";
+import cakeTray from "../assets/cake-tray.jpg";
+import glassTray from "../assets/glass-tray.jpg";
+import whiteGoldRimDesertTray from "../assets/white-gold-rim-desert-tray.jpg";
+import blackDesertStand from "../assets/black-desert-stand.jpg";
+import fruitStand from "../assets/fruit-stand.jpg";
+import tier3DesertMarbleDesign from "../assets/3-tier-desert-marble-design.jpg";
+import tier3WoodenDesertStand from "../assets/3-tier-wooden-desert-stand.jpg";
+import tier3CylinderDesertStand from "../assets/3-tier-cylinder-desert-stand.jpg";
+import tier2Desert from "../assets/2-tier-desert.jpg";
+
 export const categoriesData = [
   {
     id: "featured-combo",
@@ -138,6 +153,100 @@ export const categoriesData = [
     ],
   },
   {
+    id: "desert-stands-trays",
+    label: "Desert Stands & Trays",
+    items: [
+      {
+        id: "3-tier-cylinder-desert-stand",
+        name: "3 Tier Cylinder Desert Stand",
+        price: 300,
+        unit: "each",
+        image: tier3CylinderDesertStand,
+        description: "Elegant 3 tier cylinder desert stand",
+      },
+      {
+        id: "2-tier-desert",
+        name: "2 Tier Desert Stand",
+        price: 2500,
+        unit: "each",
+        image: tier2Desert,
+        description: "Beautiful 2 tier desert stand",
+      },
+      {
+        id: "3-tier-wooden-desert-stand",
+        name: "3 Tier Wooden Desert Stand",
+        price: 3000,
+        unit: "each",
+        image: tier3WoodenDesertStand,
+        description: "Rustic 3 tier wooden desert stand",
+      },
+      {
+        id: "3-tier-desert-marble-design",
+        name: "3 Tier Desert Marble Design",
+        price: 3000,
+        unit: "each",
+        image: tier3DesertMarbleDesign,
+        description: "Elegant 3 tier desert stand with marble design",
+      },
+      {
+        id: "fruit-stand",
+        name: "Fruit Stand",
+        price: 2000,
+        unit: "each",
+        image: fruitStand,
+        description: "Perfect stand for displaying fruits",
+      },
+      {
+        id: "black-desert-stand",
+        name: "Black Desert Stand",
+        price: 3000,
+        unit: "each",
+        image: blackDesertStand,
+        description: "Sleek black desert stand",
+      },
+      {
+        id: "white-gold-rim-desert-tray",
+        name: "White with Gold Rim Desert Tray",
+        price: 1500,
+        unit: "each",
+        image: whiteGoldRimDesertTray,
+        description: "Elegant white tray with gold rim",
+      },
+      {
+        id: "glass-tray",
+        name: "Glass Tray",
+        price: 1500,
+        unit: "each",
+        image: glassTray,
+        description: "Elegant glass tray",
+      },
+      {
+        id: "cake-tray",
+        name: "Cake Tray",
+        price: 1500,
+        unit: "each",
+        image: cakeTray,
+        description: "Perfect tray for displaying cakes",
+      },
+      {
+        id: "gold-desert-tray",
+        name: "Gold Desert Tray",
+        price: 1500,
+        unit: "each",
+        image: goldDesertTray,
+        description: "Luxurious gold desert tray",
+      },
+      {
+        id: "basket-desert-tray",
+        name: "Basket Desert Tray",
+        price: 1500,
+        unit: "each",
+        image: basketDesertTray,
+        description: "Charming basket-style desert tray",
+      },
+    ].sort((a, b) => a.name.localeCompare(b.name)),
+  },
+  {
     id: "chafing-dishes",
     label: "Chafing Dishes",
     items: [
@@ -155,6 +264,14 @@ export const categoriesData = [
         price: 2000,
         unit: "each",
         image: sideHanging,
+        description: "8 litres capacity",
+      },
+      {
+        id: "gold-side-hanging-chafing-dish-003",
+        name: "Aisha II",
+        price: 3500,
+        unit: "each",
+        image: goldSideHanging,
         description: "8 litres capacity",
       },
       {
@@ -294,6 +411,15 @@ export const categoriesData = [
         price: 3000,
         unit: "each",
         image: bronzeRectangular,
+        description:
+          "Available in single, double and triple divider pans, 9 litres capacity",
+      },
+      {
+        id: "round-sliver-chafing-dish",
+        name: "Aduke",
+        price: 3000,
+        unit: "each",
+        image: roundSilverAduke,
         description:
           "Available in single, double and triple divider pans, 9 litres capacity",
       },
