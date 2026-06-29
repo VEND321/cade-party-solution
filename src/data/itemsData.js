@@ -164,7 +164,7 @@ export const categoriesData = [
       {
         id: "3-tier-cylinder-dessert-stand",
         name: "3 Tier Cylinder Dessert Stand",
-        price: 300,
+        price: 3000,
         unit: "each",
         image: cylinderDessertStand,
         description: "Elegant 3 tier cylinder dessert stand",
